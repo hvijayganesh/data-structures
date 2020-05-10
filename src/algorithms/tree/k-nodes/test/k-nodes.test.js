@@ -5,7 +5,7 @@ const BinarySearchTree = require('../../../../data-structures/tree/BinarySearchT
 
 
 describe('Print nodes at k distance', () => {
-  it.only('print all the nodes that are at distance k from the given target node', () => {
+  it('print all the nodes that are at distance k from the given target node', () => {
     let tree = new BinarySearchTree(); 
 
     tree.root = new BinaryTreeNode(20);
