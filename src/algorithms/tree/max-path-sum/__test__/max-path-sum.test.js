@@ -5,7 +5,7 @@ const BinarySearchTree = require('../../../../data-structures/tree/BinarySearchT
 
 
 describe('Max Path Sum', () => {
-  it.only('Given a binary tree, find the maximum path sum. The path may start and end at any node in the tree.', () => {
+  it('Given a binary tree, find the maximum path sum. The path may start and end at any node in the tree.', () => {
     let tree = new BinarySearchTree(); 
 
     tree.root = new BinaryTreeNode(10);
